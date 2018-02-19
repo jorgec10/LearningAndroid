@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <string name="app_name">Units Converter</string>
+   <string name="clear">Clear</string>
+   <string name="close">Close</string>
+   <string name="convert">Convert</string>
+   <string name="prompt">Select a conversion</string>
+   <string name="units">Units</string>
+   <string name="typenumber">type a number</string>
+   <string name="result">Result</string>
+   <string name="action_settings">Action</string>
+    <string name="hello_world">Hello world!</string>
+</resources>
