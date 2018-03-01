@@ -22,8 +22,9 @@
 
         <activity android:name=".UCActivity" >
             <intent-filter>
+                <!-- Main activity -->
                 <action android:name="android.intent.action.MAIN" />
-
+                <!-- Show the activity in the android launcher -->
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
@@ -33,6 +34,7 @@
         <activity android:name=".AlarmActivity" />
         <activity android:name=".CapturingImageActivity" />
         <activity android:name=".CapturingVideoActivity" />
+        <activity android:name=".UserListActivity" />
 
         <receiver android:name=".AlarmReceiver" />
     </application>

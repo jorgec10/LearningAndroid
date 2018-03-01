@@ -262,6 +262,15 @@ public class UCActivity extends Activity {
                }
            });
 
+           final Button btnList = (Button) findViewById(R.id.list);
+           btnList.setOnClickListener(new View.OnClickListener() {
+               @Override
+               public void onClick(View view) {
+                   Intent intent = new Intent(UCActivity.this, UserListActivity.class);
+                   startActivity(intent);
+               }
+           });
+
           
           //The following textwatcher enables or disables the convert button in function of the text from the Units field
           TextWatcher tw;
